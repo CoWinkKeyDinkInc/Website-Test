@@ -1,0 +1,27 @@
+body  {
+  background:#999;
+}
+
+h2  {
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+a  {
+  color:red;
+}
+
+p  {
+  background:#FFF;
+  color:black;
+  padding:10px;
+}
+
+.secondary  {
+  background:white;
+  padding:10px;
+}
+
+#navigation  {
+  background:green;
+  padding:10px;
+}
