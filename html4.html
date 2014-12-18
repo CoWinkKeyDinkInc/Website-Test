@@ -2,11 +2,14 @@
 <html>
 <head>
   <title>New VidLand!</title>
+  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -20,20 +23,43 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="https://github.com/CoWinkKeyDinkInc">CoWinkKeyDinkInc</a>
+        <a class="navbar-brand" href="http://getbootstrap.com/components/#navbar">Bootstrap!</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="http://oc.tc">oc.tc <span class="sr-only">(current)</span></a></li>
-          <li><a href="https://pages.github.com/">GitHub Pages!</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
           <li><a href="http://en.wikipedia.org/wiki/Link_%28The_Legend_of_Zelda%29">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="index.html">Page 1</a></li>
+              <li><a href="html2.html">Page 2</a></li>
+              <li><a href="html3.html">Page 3</a></li>
+              <li><strong><a href-"#">Page 4</a></strong></li>
+              <li><a href="html5.html">Page 5</a></li>
+              <li class="divider"></li>
+              <li><a href="http://www.github.com">GitHub</a></li>
+              <li class="divider"></li>
+              <li><a href="http://www.google.ca">Google</a></li>
+            </ul>
+          </li>
         </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
 
+
+  <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>

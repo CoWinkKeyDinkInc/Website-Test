@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New VidLand!</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link href="css3.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>JavaScript Test</h1>
+
+  <p>A test done in Javascript.</p>
+
+  <h3>A list of some important facts</h3>
+  <ul>
+    <li>JavaScript is not silimar to Java.</li>
+    <li>CSS and HTML are really simple, <a href="https://www.youtube.com/watch?v=6wJXBUfcIOE">It's Easy, M'kay?</a></li>
+  </ul>
+
+  <p><input id="name" type="text"></p>
+  <p><button id="text">Enter</button></p>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <script>
+  $('#text').click(function() {
+    var value = $('#name').val();
+    $('ul').append('<li>' + value + '</li>');
+  });
+  </script>
+
+  <h6>©2014 by me mums car</h6>
+
+
+</body>
+</html>
