@@ -1,47 +1,54 @@
 header  {
-  background:black;
-  color:white;
+  background: black;
 }
 
 header h1  {
-  color:yellow;
-  display:inline;
+  color: yellow;
+  display: inline;
 }
 
 nav ul  {
-  font-family:"Comic Sans MS", cursive, sans-serif;
-  display:inline;
+  display: inline;
 }
 
 nav ul li  {
-  font-family:"Arial", Helvetica, sans-serif;
-  list-style-type:none;
-  display:inline-block;
-  background:brown;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  list-style-type: none;
+  display: inline-block;
+  background: brown;
   margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-nav ul li a  {
-  color:green;
+a:link  {
+  color:white;
+  text-decoration:none;
+}
+
+a:visited  {
+  color:white;
 }
 
 .row:before  {
-  clear:both;
+  clear: both;
 }
 
 .row:after  {
-  clear:both;
+  clear: both;
 }
 
 .col  {
-  float:left;
-  background:#331;
-  margin:3%;
-  width:21%;
-  boarder-radius:6px;
-  padding:2%;
+  float: left;
+  background: #331;
+  margin: 3%;
+  width: 21%;
+  boarder-radius: 6px;
+  padding: 2%;
+  color: white;
 }
 
 footer  {
-  clear:both;
+  clear: both;
+  font-family: "Arial", Helvetica, sans-serif;
 }

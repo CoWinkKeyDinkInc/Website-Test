@@ -1,18 +1,52 @@
-body  {
-  background:white;
+h1  {
+  background: black;
+  padding: 10px;
+  color: yellow;
 }
 
-h1  {
-  background:black;
-  padding:10px;
-  color:yellow;
+h3  {
+  position: relative;
+  left: 5px;
+}
+
+h6  {
+  position: relative;
+  top: 70px;
+  left: 5px;
 }
 
 ul li  {
-  background:grey;
-  padding:10px;
+  background: grey;
+  padding: 10px;
 }
 
 a  {
-  color:white;
+  color: white;
+}
+
+p  {
+  position: relative;
+  left: 5px;
+}
+
+img  {
+  width: 200px;
+  height: 200px;
+  position :relative;
+  -webkit-animation: githubcat 3s infinite; /* Chrome, Safari, Opera */
+  animation: githubcat 3s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes githubcat {
+  0%   {top: 0px;}
+  50%  {top: 20px;}
+  100% {top: 0px;}
+}
+
+/* Standard syntax */
+@keyframes githubcat {
+  0%   {top: 0px;}
+  50%  {top: 20px;}
+  100% {top: 0px;}
 }
